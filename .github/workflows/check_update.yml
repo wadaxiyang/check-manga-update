@@ -1,0 +1,38 @@
+name: 检查漫画更新
+
+on:
+  # 定时触发
+  schedule:
+    # 7点-23点，每隔3小时触发一次
+    - cron: "0 7-23/3 * * *"
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  run-get-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 设置 Python 环境
+    - name: 设置 Python 环境
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x  # 替换为你的 Python 版本
+
+    # 安装 requirements.txt 中的依赖
+    - name: 安装依赖
+      run: |
+        cd copymanga
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # 执行 get_update.py
+    - name: 检查更新
+    
+      run: |
+        cd copymanga
+        python get_update.py

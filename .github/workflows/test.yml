@@ -1,0 +1,37 @@
+name: 测试
+
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "邮件主题"
+        required: true
+        default: "GitHub Actions"
+      body:
+        description: "邮件内容"
+        required: true
+        default: "Hello!"
+      recipient:
+        description: "收件人邮箱"
+        required: true
+        default: "1265501579@qq.com"
+
+jobs:
+  send_email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Send Email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.qq.com
+          server_port: 465
+          username: ${{ secrets.QQ_EMAIL_USER }}
+          password: ${{ secrets.QQ_EMAIL_PASSWORD }}
+          subject: ${{ github.event.inputs.subject }}
+          body: ${{ github.event.inputs.body }}
+          to: ${{ github.event.inputs.recipient }}
+          from: ${{ secrets.QQ_EMAIL_USER }}
