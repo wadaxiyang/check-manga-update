@@ -97,15 +97,15 @@ def run():
             comics_data = json.load(file)
             # 比较response内容与comics.json内容
             if response == comics_data:
-                print("内容相同，直接退出")
+                print("无更新（悲）")
                 return
     except (FileNotFoundError, json.JSONDecodeError):
         # 更新comics.json文件内容
-        print("文件不存在，更新comics.json文件")
+        print("文件不存在，创建comics.json文件")
         with open('comics.json', 'w', encoding='utf-8') as file:
             json.dump(response, file, ensure_ascii=False, indent=4)
 
-    print("内容不同，更新comics.json文件")
+    print("有更新（乐）")
     with open('comics.json', 'w', encoding='utf-8') as file:
         json.dump(response, file, ensure_ascii=False, indent=4)
             
