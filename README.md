@@ -12,14 +12,21 @@
 
 - 修改仓库中的`copymanga/var.json`文件,大功告成
 
+  > token	   拷贝漫画的token，**不必修改**，会自动生成
+  > username	拷贝 用户名 	必须
+  > password	拷贝 密码   	必须
+  > from_email      发件人	      必须
+  > to_email	收件人	      必须，可以发给自己
+  > email_token     邮箱授权码	   必须
+  
   ```json
   {
-      "token": "", 						//拷贝漫画的token，不必修改，会自动生成
-      "username": "98765432", 			//拷贝 用户名 必须
-      "password": "123456",   			//拷贝 密码   必须
-      "from_email": "example@qq.com",		//发件人	   必须
-      "to_email": "example@qq.com",		//收件人	   必须，可以发给自己
-      "email_token": "jlegvgancaltbijc"	//邮箱授权码	  必须
+      "token": "lalala",
+      "username": "98765432",
+      "password": "123456",   			
+      "from_email": "example@qq.com",		
+      "to_email": "example@qq.com",		
+      "email_token": "jlegvgancaltbijc"
   }
   ```
 
