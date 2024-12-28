@@ -22,5 +22,5 @@ def login(username, password, salt='123456'):
     token = response_data['results']['token']
     print(token)
 
-# 参数为用户名和密码
+# 参数为用户名和密码，这是一个测试账号，请替换为自己的账号
 login('C321654987','abc12345')
