@@ -92,18 +92,20 @@ EMAIL_TOKEN
 
 ### 修改触发条件
 
-> 触发条件默认是 7点-23点，每隔2小时触发一次，你可以调整触发频率或时间段，例如：
+> 触发条件默认是每隔30分钟触发一次，你可以调整触发频率或时间段，例如：
 >
-> `- cron: "0 7-23 * * *"` : 7-23 每小时触发一次
+> `- cron: "0 * * * *"` : 每小时触发一次
+>
+> 注意最高触发频率是每五分钟一次，而且Actions每个月的[使用额度](https://docs.github.com/zh/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions)是有限的，免费版2000分钟/月，一次任务大概20s左右
 
 ```yml
 on:
   # 定时触发
   schedule:
-    # 7点-23点，每隔2小时触发一次
-    - cron: "0 7-23/2 * * *"
-  # 允许手动触发
-  workflow_dispatch:
+    # 每隔30分钟触发一次
+    - cron: "*/30 * * * *"
+    # 每小时整点触发
+    # - cron: "0 * * * *"
 ```
 
 ## 计划
@@ -111,4 +113,8 @@ on:
 - [ ] 可以使用其他邮箱服务
 - [ ] 项目文件结构优化，抽取函数到多个py文件
 
-如果对你有帮助的话，不妨给个star⭐
+
+
+**如果对你有帮助的话，不妨给个star⭐**
+
+![](https://counter.seku.su/cmoe?name=check-manga-update&theme=r34)

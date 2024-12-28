@@ -3,9 +3,12 @@ name: check
 on:
   # 定时触发
   schedule:
-    # 7点-23点，每隔2小时触发一次
-    - cron: "0 7-23/2 * * *"
-  # 手动触发
+    # 每隔30分钟触发一次
+    - cron: "*/30 * * * *"
+    # 每小时整点触发
+    # - cron: "0 * * * *"
+
+  # 允许手动触发
   workflow_dispatch:
 
 permissions:
