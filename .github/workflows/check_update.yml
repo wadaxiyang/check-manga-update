@@ -1,4 +1,4 @@
-name: check
+name: check-dev
 
 on:
   # 定时触发
