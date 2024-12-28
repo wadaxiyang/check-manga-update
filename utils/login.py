@@ -1,9 +1,7 @@
-import base64
 import requests
+import json
 
-def login(username, password, salt='123456'):
-    # 加密
-    password = base64.b64encode((password+'-'+salt).encode()).decode()
+def login(username, password, salt, vars):
     url = "https://www.mangacopy.com/api/kb/web/login"
     # 请求体
     data = {
@@ -20,7 +18,11 @@ def login(username, password, salt='123456'):
     response_data = response.json()
     # 提取 token
     token = response_data['results']['token']
-    print(token)
-
-# 参数为用户名和密码，这是一个测试账号，请替换为自己的账号
-login('C321654987','abc12345')
+    with open(vars, 'r') as file:
+        var_data = json.load(file)
+    var_data['token'] = token
+    # 保存 token 到 var.json
+    with open(vars, 'w') as file:
+        json.dump(var_data, file, indent=4)
+    print('登录成功!')
+    return token  

@@ -1,2 +1,4 @@
 **/test.json
-**/var.txt
+**/var.json
+__pycache__/
+*.pyc

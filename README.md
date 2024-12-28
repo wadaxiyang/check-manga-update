@@ -33,11 +33,11 @@
 
 ![image-20241228123648544](https://s2.loli.net/2024/12/28/CkFaXtLTQbRU5he.png)
 
-> TOKEN	   拷贝漫画的token
-> USERNAME	拷贝 用户名 
-> PASSWORD	拷贝 密码
+> TOKEN    拷贝漫画的token
+> USERNAME 拷贝 用户名
+> PASSWORD 拷贝 密码
 > FROM_EMAIL      发件人邮箱
-> TO_EMAIL	收件人邮箱 *可以发给自己:)*
+> TO_EMAIL 收件人邮箱 *可以发给自己:)*
 > EMAIL_TOKEN     邮箱授权码
 
 快捷复制:)
@@ -76,8 +76,6 @@ EMAIL_TOKEN
 
   ![image-20241228124951850](https://s2.loli.net/2024/12/28/un3kYgVO5BENLvF.png)
 
-- 仓库中有一个`login.py`文件，可以很方便的获取token，但是会导致你的网站需要重新登陆，所以还是推荐上面的办法获取token（悲
-
 ### 测试
 
 你可以手动触发工作流检查是否能正常运作
@@ -112,8 +110,6 @@ on:
 
 - [ ] 可以使用其他邮箱服务
 - [ ] 项目文件结构优化，抽取函数到多个py文件
-
-
 
 **如果对你有帮助的话，不妨给个star⭐**
 
