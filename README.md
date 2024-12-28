@@ -1,6 +1,9 @@
 # 定时获取拷贝漫画更新
 
 [![check](https://github.com/caolib/check-manga-update/actions/workflows/check_update.yml/badge.svg)](https://github.com/caolib/check-manga-update/actions/workflows/check_update.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/caolib/check-manga-update?logo=github)
+![GitHub Release](https://img.shields.io/github/v/release/caolib/check-manga-update?link=https%3A%2F%2Fgithub.com%2Fcaolib%2Fcheck-manga-update%2Freleases)
+![GitHub License](https://img.shields.io/github/license/caolib/check-manga-update)
 
 ## 简介
 
