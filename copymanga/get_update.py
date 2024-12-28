@@ -10,7 +10,10 @@ from datetime import datetime
 username, password, from_email, to_email, token = "", "", "", "", ""
 salt = "123456" # 盐
 
-with open('var.json', 'r', encoding='utf-8') as file:
+# vars = 'test.json'
+vars = 'var.json'
+
+with open(vars, 'r', encoding='utf-8') as file:
     data = json.load(file)
     username = data['username']
     password = data['password']
@@ -23,7 +26,7 @@ with open('var.json', 'r', encoding='utf-8') as file:
 
 
 def login():
-    global username, password, salt
+    global username, password, salt, vars
     url = "https://www.mangacopy.com/api/kb/web/login"
     # 请求体
     data = {
@@ -40,10 +43,10 @@ def login():
     response_data = response.json()
     # 提取 token
     token = response_data['results']['token']
-    with open('var.json', 'r') as file:
+    with open(vars, 'r') as file:
         var_data = json.load(file)
     var_data['token'] = token
-    with open('var.json', 'w') as file:
+    with open(vars, 'w') as file:
         json.dump(var_data, file, indent=4)
     print('登录成功!')
     return token  
@@ -71,33 +74,39 @@ def send_email(content):
     except Exception as e:
         print(f"邮件发送失败: {e}")
 
-def fetch_comics():
-    global token
+def api_request(token):
     conn = http.client.HTTPSConnection("www.mangacopy.com")
     headers = {
         'Authorization': f'Token {token}'
     }
-    print(headers)
+    # print(headers)
     conn.request("GET", "/api/v3/member/collect/comics?ordering=-datetime_updated", headers=headers)
     res = conn.getresponse()
     data = res.read()
-
     if res.status == 401:
-        print("无效的 token 标头!正在尝试重新登录")
-        token = login()
-        fetch_comics()
+        print("token无效，正在尝试重新登录！")
+        return False
     else :
         return json.loads(data.decode("utf-8"))
 
+def fetch_comics():
+    global token
+    response = api_request(token)
+    if response == False:
+        token = login()
+        response = api_request(token)
+    return response
 
 def run():
     response = fetch_comics()
+    # print(response)
+
     try:
         with open('comics.json', 'r', encoding='utf-8') as file:
             comics_data = json.load(file)
             # 比较response内容与comics.json内容
             if response == comics_data:
-                print("无更新（悲）")
+                print("无更新（悲） :(")
                 return
     except (FileNotFoundError, json.JSONDecodeError):
         # 更新comics.json文件内容
@@ -105,7 +114,7 @@ def run():
         with open('comics.json', 'w', encoding='utf-8') as file:
             json.dump(response, file, ensure_ascii=False, indent=4)
 
-    print("有更新（乐）")
+    print("有更新（乐） :)")
     with open('comics.json', 'w', encoding='utf-8') as file:
         json.dump(response, file, ensure_ascii=False, indent=4)
             

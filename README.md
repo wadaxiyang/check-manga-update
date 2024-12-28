@@ -29,6 +29,10 @@
       "email_token": "jlegvgancaltbijc"
   }
   ```
+  
+- 邮件提醒示例
+
+  ![image-20241228101807069](https://s2.loli.net/2024/12/28/QAyn9otF82c3zfO.png)
 
 ## 修改其他配置
 
