@@ -10,6 +10,8 @@ from datetime import datetime
 username, password, from_email, to_email, token = "", "", "", "", ""
 salt = "123456" # 盐
 
+flag = False # 标记是否需要更换令牌
+
 # vars = 'test.json'
 vars = 'var.json'
 
@@ -85,6 +87,7 @@ def api_request(token):
     res = conn.getresponse()
     data = res.read()
     if res.status == 401:
+        flag = True
         print("token无效，正在尝试重新登录！")
         return False
     else :
@@ -147,7 +150,10 @@ def run():
                         <td>{update_date}</td>
                     </tr>
                     """
-    message += "</table></body></html>"
+    message += "</table>"
+    if flag:
+        message += "<h2>token失效，请更新</h2>"
+    message+="</body></html>"
     send_email(message)
 
 run()
