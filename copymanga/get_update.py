@@ -12,7 +12,6 @@ salt = "123456" # 盐
 
 flag = False # 标记是否需要更换令牌
 
-# vars = 'test.json'
 vars = 'var.json'
 
 
