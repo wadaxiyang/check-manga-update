@@ -101,7 +101,6 @@ def fetch_comics():
 def run():
     response = fetch_comics()
     # print(response)
-
     try:
         with open('comics.json', 'r', encoding='utf-8') as file:
             comics_data = json.load(file)
@@ -115,6 +114,7 @@ def run():
         with open('comics.json', 'w', encoding='utf-8') as file:
             json.dump(response, file, ensure_ascii=False, indent=4)
 
+    # 更新comics.json文件内容
     print("有更新（乐） :)")
     with open('comics.json', 'w', encoding='utf-8') as file:
         json.dump(response, file, ensure_ascii=False, indent=4)

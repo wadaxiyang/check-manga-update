@@ -3,8 +3,8 @@ name: 检查漫画更新
 on:
   # 定时触发
   schedule:
-    # 7点-23点，每隔3小时触发一次
-    - cron: "0 7-23/3 * * *"
+    # 7点-23点，每隔2小时触发一次
+    - cron: "0 7-23/2 * * *"
   # 手动触发
   workflow_dispatch:
 
@@ -47,3 +47,15 @@ jobs:
       run: |
         cd copymanga
         python get_update.py
+
+    # 更新 comics.json
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        cd copymanga
+        git add comics.json
+        git commit -m '📃 docs: 更新漫画内容'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
