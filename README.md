@@ -96,7 +96,7 @@ EMAIL_TOKEN
 >
 > `- cron: "0 * * * *"` : 每小时触发一次
 >
-> 注意最高触发频率是每五分钟一次，而且Actions每个月的[使用额度](https://docs.github.com/zh/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions)是有限的，免费版2000分钟/月，一次任务大概20s左右
+> 注意最高触发频率是每五分钟一次，注意Actions每个月的[使用额度](https://docs.github.com/zh/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions)是有限的，免费版2000分钟/月，一次任务大概20s左右
 
 ```yml
 on:
