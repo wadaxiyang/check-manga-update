@@ -1,4 +1,4 @@
-name: check
+name: check-dev
 
 on:
   # 定时触发
@@ -32,7 +32,6 @@ jobs:
     # 安装 requirements.txt 中的依赖
     - name: 安装依赖
       run: |
-        cd copymanga
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
@@ -46,25 +45,24 @@ jobs:
             "from_email": "'"${{ secrets.FROM_EMAIL }}"'",
             "to_email": "'"${{ secrets.TO_EMAIL }}"'",
             "email_token": "'"${{ secrets.EMAIL_TOKEN }}"'"
-          }' > copymanga/var.json
+          }' > data/var.json
 
     # 检查漫画更新
     - name: 检查更新
       run: |
-        cd copymanga
-        python get_update.py
+        python main.py
 
     # 更新 comics.json
     - name: 更新漫画内容
       run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          cd copymanga
+          cd data
           git add comics.json
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
           else
-            git commit -m '📃 docs: 更新漫画内容'
+            git commit -m '📃 docs: 漫画内容更新'
             git push
           fi
       env:
