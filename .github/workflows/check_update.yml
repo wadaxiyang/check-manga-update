@@ -63,6 +63,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m '📃 docs: 漫画内容更新'
+            git pull
             git push
           fi
       env:
