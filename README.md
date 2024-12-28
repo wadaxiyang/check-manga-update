@@ -6,11 +6,11 @@
 
 ## 怎么使用
 
-- fork本仓库,**将仓库设为private**(因为仓库中会存放一些令牌和密码，一定要设为私有啊)
+- clone本仓库,**将仓库设为private**(因为仓库中会存放一些令牌和密码，不要fork，否则不能改成私有)
 
 - 开启邮件SMTP服务，此处使用QQ邮箱，可以参阅[邮箱开启SMTP服务](https://clb.pages.dev/2024/12/27/开启SMTP服务/)获取邮箱授权码
 
-- 修改仓库中的`copymanga/var.json`文件,大功告成
+- 修改仓库中的`copymanga/var.json`文件,将git绑定到你github的一个私有仓库并推送，大功告成
 
   > token	   拷贝漫画的token，**不必修改**，会自动生成
   > username	拷贝 用户名 	必须
