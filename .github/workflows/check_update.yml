@@ -52,13 +52,17 @@ jobs:
         python get_update.py
 
     # 更新 comics.json
-    - name: Commit and push changes
+    - name: 更新漫画内容
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        cd copymanga
-        git add comics.json
-        git commit -m '📃 docs: 更新漫画内容'
-        git push
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          cd copymanga
+          git add comics.json
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m '📃 docs: 更新漫画内容'
+            git push
+          fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
