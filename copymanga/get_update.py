@@ -13,6 +13,7 @@ salt = "123456" # 盐
 # vars = 'test.json'
 vars = 'var.json'
 
+
 with open(vars, 'r', encoding='utf-8') as file:
     data = json.load(file)
     username = data['username']
