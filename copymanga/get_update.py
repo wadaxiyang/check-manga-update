@@ -78,6 +78,7 @@ def send_email(content):
         print(f"邮件发送失败: {e}")
 
 def api_request(token):
+    global flag
     conn = http.client.HTTPSConnection("www.mangacopy.com")
     headers = {
         'Authorization': f'Token {token}'
@@ -102,6 +103,7 @@ def fetch_comics():
     return response
 
 def run():
+    global flag
     response = fetch_comics()
     # print(response)
     try:
