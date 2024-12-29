@@ -4,6 +4,43 @@
     "results": {
         "list": [
             {
+                "uuid": 211473,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": {
+                    "last_browse_id": "0273bdcc-b06d-11ef-9190-3f487b7d9a9a",
+                    "last_browse_name": "第94话"
+                },
+                "comic": {
+                    "uuid": "331d4826-9b85-11e8-8c80-c8ff287e7c9d",
+                    "b_display": true,
+                    "name": "別當歐尼醬了！",
+                    "path_word": "biedangounijiangle",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "ねことうふ（猫豆腐）",
+                            "path_word": "ねことうふ（猫豆腐）"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://sb.mangafunb.fun/b/biedangounijiangle/cover/1730054905.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 7175203,
+                    "datetime_updated": "2024-12-29",
+                    "last_chapter_id": "b6c180d8-c5bd-11ef-9f6d-3f487b7d9a9a",
+                    "last_chapter_name": "第95话",
+                    "browse": {
+                        "comic_uuid": "331d4826-9b85-11e8-8c80-c8ff287e7c9d",
+                        "path_word": "biedangounijiangle",
+                        "chapter_uuid": "0273bdcc-b06d-11ef-9190-3f487b7d9a9a",
+                        "chapter_name": "第94话"
+                    }
+                }
+            },
+            {
                 "uuid": 211467,
                 "name": null,
                 "b_folder": false,
@@ -74,43 +111,6 @@
                     "datetime_updated": "2024-12-26",
                     "last_chapter_id": "e719f362-c349-11ef-9e4c-3f487b7d9a9a",
                     "last_chapter_name": "第256话"
-                }
-            },
-            {
-                "uuid": 211473,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": {
-                    "last_browse_id": "0273bdcc-b06d-11ef-9190-3f487b7d9a9a",
-                    "last_browse_name": "第94话"
-                },
-                "comic": {
-                    "uuid": "331d4826-9b85-11e8-8c80-c8ff287e7c9d",
-                    "b_display": true,
-                    "name": "別當歐尼醬了！",
-                    "path_word": "biedangounijiangle",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "ねことうふ（猫豆腐）",
-                            "path_word": "ねことうふ（猫豆腐）"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://sb.mangafunb.fun/b/biedangounijiangle/cover/1730054905.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 7175203,
-                    "datetime_updated": "2024-12-02",
-                    "last_chapter_id": "0273bdcc-b06d-11ef-9190-3f487b7d9a9a",
-                    "last_chapter_name": "第94话",
-                    "browse": {
-                        "comic_uuid": "331d4826-9b85-11e8-8c80-c8ff287e7c9d",
-                        "path_word": "biedangounijiangle",
-                        "chapter_uuid": "0273bdcc-b06d-11ef-9190-3f487b7d9a9a",
-                        "chapter_name": "第94话"
-                    }
                 }
             }
         ],
