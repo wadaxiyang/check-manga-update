@@ -46,12 +46,14 @@ server = EmailServer("smtp.gmail.com", 465, email_token)   # Gmail
 
 ![image-20241228123648544](https://s2.loli.net/2024/12/28/CkFaXtLTQbRU5he.png)
 
-> TOKEN    	拷贝 token
-> USERNAME 	拷贝 用户名
-> PASSWORD 	拷贝 密码
-> FROM_EMAIL       发件人邮箱
-> TO_EMAIL 	收件人邮箱，可以发给自己
-> EMAIL_TOKEN      邮箱授权码
+| Key         | Value                    |
+| ----------- | ------------------------ |
+| TOKEN       | 拷贝 token               |
+| USERNAME    | 拷贝 用户名              |
+| PASSWORD    | 拷贝 密码                |
+| FROM_EMAIL  | 发件人邮箱               |
+| TO_EMAIL    | 收件人邮箱，可以发给自己 |
+| EMAIL_TOKEN | 邮箱授权码               |
 
 快捷复制:)
 
