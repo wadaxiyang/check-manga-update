@@ -4,6 +4,38 @@
     "results": {
         "list": [
             {
+                "uuid": 211460,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": null,
+                "comic": {
+                    "uuid": "4caadd62-4efd-11e9-8b1c-024352452ce0",
+                    "b_display": true,
+                    "name": "一拳超人",
+                    "path_word": "yiquanchaoren",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "村田雄介",
+                            "path_word": "村田雄介"
+                        },
+                        {
+                            "name": "ONE",
+                            "path_word": "ONE"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/yiquanchaoren/cover/1651425894.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 18973689,
+                    "datetime_updated": "2025-01-02",
+                    "last_chapter_id": "c296ef68-c867-11ef-a105-3f487b7d9a9a",
+                    "last_chapter_name": "2025新年賀圖"
+                }
+            },
+            {
                 "uuid": 211473,
                 "name": null,
                 "b_folder": false,
@@ -79,38 +111,6 @@
                         "chapter_uuid": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
                         "chapter_name": "第33話"
                     }
-                }
-            },
-            {
-                "uuid": 211460,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "4caadd62-4efd-11e9-8b1c-024352452ce0",
-                    "b_display": true,
-                    "name": "一拳超人",
-                    "path_word": "yiquanchaoren",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "村田雄介",
-                            "path_word": "村田雄介"
-                        },
-                        {
-                            "name": "ONE",
-                            "path_word": "ONE"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/yiquanchaoren/cover/1651425894.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 18973689,
-                    "datetime_updated": "2024-12-26",
-                    "last_chapter_id": "e719f362-c349-11ef-9e4c-3f487b7d9a9a",
-                    "last_chapter_name": "第256话"
                 }
             },
             {
