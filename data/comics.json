@@ -4,6 +4,47 @@
     "results": {
         "list": [
             {
+                "uuid": 211467,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": {
+                    "last_browse_id": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
+                    "last_browse_name": "第33話"
+                },
+                "comic": {
+                    "uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
+                    "b_display": true,
+                    "name": "普普通通輕音部",
+                    "path_word": "puputongtongqinyinbu",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "出内テツオ",
+                            "path_word": "出内テツオ"
+                        },
+                        {
+                            "name": "クワハリ",
+                            "path_word": "クワハリ"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://sp.mangafunb.fun/p/puputongtongqinyinbu/cover/1733321294.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 58859,
+                    "datetime_updated": "2025-01-03",
+                    "last_chapter_id": "4daad208-c995-11ef-a1db-3f487b7d9a9a",
+                    "last_chapter_name": "第35話",
+                    "browse": {
+                        "comic_uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
+                        "path_word": "puputongtongqinyinbu",
+                        "chapter_uuid": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
+                        "chapter_name": "第33話"
+                    }
+                }
+            },
+            {
                 "uuid": 212309,
                 "name": null,
                 "b_folder": false,
@@ -98,47 +139,6 @@
                     "datetime_updated": "2025-01-02",
                     "last_chapter_id": "c296ef68-c867-11ef-a105-3f487b7d9a9a",
                     "last_chapter_name": "2025新年賀圖"
-                }
-            },
-            {
-                "uuid": 211467,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": {
-                    "last_browse_id": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
-                    "last_browse_name": "第33話"
-                },
-                "comic": {
-                    "uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
-                    "b_display": true,
-                    "name": "普普通通輕音部",
-                    "path_word": "puputongtongqinyinbu",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "出内テツオ",
-                            "path_word": "出内テツオ"
-                        },
-                        {
-                            "name": "クワハリ",
-                            "path_word": "クワハリ"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://sp.mangafunb.fun/p/puputongtongqinyinbu/cover/1733321294.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 58859,
-                    "datetime_updated": "2024-12-26",
-                    "last_chapter_id": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
-                    "last_chapter_name": "第33話",
-                    "browse": {
-                        "comic_uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
-                        "path_word": "puputongtongqinyinbu",
-                        "chapter_uuid": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
-                        "chapter_name": "第33話"
-                    }
                 }
             }
         ],
