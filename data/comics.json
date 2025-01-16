@@ -4,34 +4,6 @@
     "results": {
         "list": [
             {
-                "uuid": 212309,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "259e688c-f526-11e8-b542-00163e0ca5bd",
-                    "b_display": true,
-                    "name": "電鋸人",
-                    "path_word": "dianjuren",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "藤本タツキ",
-                            "path_word": "藤本タツキ"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/dianjuren/cover/1689304034.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 46135559,
-                    "datetime_updated": "2025-01-16",
-                    "last_chapter_id": "27516bdc-d3ca-11ef-a859-3f487b7d9a9a",
-                    "last_chapter_name": "第190话"
-                }
-            },
-            {
                 "uuid": 211467,
                 "name": null,
                 "b_folder": false,
@@ -61,15 +33,43 @@
                     "cover": "https://sp.mangafunb.fun/p/puputongtongqinyinbu/cover/1733321294.jpg.328x422.jpg",
                     "status": 0,
                     "popular": 67527,
-                    "datetime_updated": "2025-01-10",
-                    "last_chapter_id": "452f9cfc-cf13-11ef-a5ff-3f487b7d9a9a",
-                    "last_chapter_name": "第37話",
+                    "datetime_updated": "2025-01-16",
+                    "last_chapter_id": "502dbef0-d421-11ef-a8a6-3f487b7d9a9a",
+                    "last_chapter_name": "第38話",
                     "browse": {
                         "comic_uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
                         "path_word": "puputongtongqinyinbu",
                         "chapter_uuid": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
                         "chapter_name": "第33話"
                     }
+                }
+            },
+            {
+                "uuid": 212309,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": null,
+                "comic": {
+                    "uuid": "259e688c-f526-11e8-b542-00163e0ca5bd",
+                    "b_display": true,
+                    "name": "電鋸人",
+                    "path_word": "dianjuren",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "藤本タツキ",
+                            "path_word": "藤本タツキ"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/dianjuren/cover/1689304034.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 46135559,
+                    "datetime_updated": "2025-01-16",
+                    "last_chapter_id": "27516bdc-d3ca-11ef-a859-3f487b7d9a9a",
+                    "last_chapter_name": "第190话"
                 }
             },
             {
