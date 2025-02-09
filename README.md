@@ -38,7 +38,7 @@ server = EmailServer("smtp.gmail.com", 465, email_token)   # Gmail
 
 ### 添加Secrets
 
-1. 进入你的仓库，点击**Settings**
+1. 进入你的仓库，点击**Settings** (如果你是clone本仓库的话需要先在github创建一个新的仓库，然后将克隆下来的代码绑定你创建的仓库，然后将代码推送上去)
 
 ![image-20241228123435863](https://s2.loli.net/2024/12/28/y2YDdAGHhiW3Bkg.png)
 
