@@ -4,6 +4,34 @@
     "results": {
         "list": [
             {
+                "uuid": 212309,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": null,
+                "comic": {
+                    "uuid": "259e688c-f526-11e8-b542-00163e0ca5bd",
+                    "b_display": true,
+                    "name": "電鋸人",
+                    "path_word": "dianjuren",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "藤本タツキ",
+                            "path_word": "藤本タツキ"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/dianjuren/cover/1689304034.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 46649016,
+                    "datetime_updated": "2025-02-28",
+                    "last_chapter_id": "d487e777-f573-11ef-9f4c-fa163e02432f",
+                    "last_chapter_name": "第193话"
+                }
+            },
+            {
                 "uuid": 211467,
                 "name": null,
                 "b_folder": false,
@@ -45,34 +73,6 @@
                 }
             },
             {
-                "uuid": 212309,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "259e688c-f526-11e8-b542-00163e0ca5bd",
-                    "b_display": true,
-                    "name": "電鋸人",
-                    "path_word": "dianjuren",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "藤本タツキ",
-                            "path_word": "藤本タツキ"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/dianjuren/cover/1689304034.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 46649016,
-                    "datetime_updated": "2025-02-07",
-                    "last_chapter_id": "aebfaf32-e524-11ef-b0ab-3f487b7d9a9a",
-                    "last_chapter_name": "第192话"
-                }
-            },
-            {
                 "uuid": 211473,
                 "name": null,
                 "b_folder": false,
@@ -97,7 +97,7 @@
                     "theme": [],
                     "cover": "https://sb.mangafunb.fun/b/biedangounijiangle/cover/1730054905.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 7576348,
+                    "popular": 7580157,
                     "datetime_updated": "2025-01-27",
                     "last_chapter_id": "3bf6561c-dc6f-11ef-ad31-3f487b7d9a9a",
                     "last_chapter_name": "第96话",
@@ -135,7 +135,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/yiquanchaoren/cover/1651425894.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 19311263,
+                    "popular": 19315633,
                     "datetime_updated": "2025-01-02",
                     "last_chapter_id": "c296ef68-c867-11ef-a105-3f487b7d9a9a",
                     "last_chapter_name": "2025新年賀圖"
