@@ -4,145 +4,223 @@
     "results": {
         "list": [
             {
-                "uuid": 211473,
+                "uuid": 233515,
                 "name": null,
                 "b_folder": false,
                 "folder_id": null,
-                "last_browse": {
-                    "last_browse_id": "80e0de68-e9f9-11ea-b8bb-00163e0ca5bd",
-                    "last_browse_name": "ç¬¬42è¯"
-                },
+                "last_browse": null,
                 "comic": {
-                    "uuid": "331d4826-9b85-11e8-8c80-c8ff287e7c9d",
+                    "uuid": "33d2d92e-9b85-11e8-9566-c8ff287e7c9d",
                     "b_display": true,
-                    "name": "別當歐尼醬了！",
-                    "path_word": "biedangounijiangle",
+                    "name": "無能的奈奈",
+                    "path_word": "wunengdenainai",
                     "females": [],
                     "males": [],
                     "author": [
                         {
-                            "name": "ねことうふ（猫豆腐）",
-                            "path_word": "ねことうふ（猫豆腐）"
+                            "name": "るーすぼーい",
+                            "path_word": "るーすぼーい"
+                        },
+                        {
+                            "name": "古屋庵",
+                            "path_word": "古屋庵"
                         }
                     ],
                     "theme": [],
-                    "cover": "https://sb.mangafunb.fun/b/biedangounijiangle/cover/1730054905.jpg.328x422.jpg",
+                    "cover": "https://hi77-overseas.mangafunb.fun/wunengdenainai/cover/1651207608.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 7583694,
+                    "popular": 2872317,
                     "datetime_updated": "2025-03-01",
-                    "last_chapter_id": "49e13a9d-f6a6-11ef-85e1-fa163e02432f",
+                    "last_chapter_id": "0c338c17-f660-11ef-99fd-fa163e02432f",
+                    "last_chapter_name": "第105话"
+                }
+            },
+            {
+                "uuid": 176738,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": {
+                    "last_browse_id": "d00ed8f6-0f88-11ea-b7b7-00163e0ca5bd",
+                    "last_browse_name": "ç¬¬06è¯"
+                },
+                "comic": {
+                    "uuid": "1b9188ce-efc6-11e9-bddf-00163e0ca5bd",
+                    "b_display": true,
+                    "name": "天才王子的赤字國家振興術",
+                    "path_word": "tiancaiwangzidechiziguojiazhenxingshu",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "鸟羽徹",
+                            "path_word": "鸟羽徹"
+                        },
+                        {
+                            "name": "ファルまろ",
+                            "path_word": "ファルまろ"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/tiancaiwangzidechiziguojiazhenxingshu/cover/1651390129.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 2683048,
+                    "datetime_updated": "2025-02-28",
+                    "last_chapter_id": "d638cbe5-f59b-11ef-b50b-fa163e02432f",
+                    "last_chapter_name": "第228话",
+                    "browse": {
+                        "comic_uuid": "1b9188ce-efc6-11e9-bddf-00163e0ca5bd",
+                        "path_word": "tiancaiwangzidechiziguojiazhenxingshu",
+                        "chapter_uuid": "d00ed8f6-0f88-11ea-b7b7-00163e0ca5bd",
+                        "chapter_name": "ç¬¬06è¯"
+                    }
+                }
+            },
+            {
+                "uuid": 233517,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": {
+                    "last_browse_id": "3a9ebfba-e710-11ef-b20d-3f487b7d9a9a",
+                    "last_browse_name": "第100话"
+                },
+                "comic": {
+                    "uuid": "b58f15e6-c6e5-11e8-87e1-024352452ce0",
+                    "b_display": true,
+                    "name": "碧蓝之海",
+                    "path_word": "grandblue",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "井上堅二",
+                            "path_word": "井上堅二"
+                        },
+                        {
+                            "name": "吉岡公威",
+                            "path_word": "吉岡公威"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/grandblue/cover/1657695983.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 11448452,
+                    "datetime_updated": "2025-02-10",
+                    "last_chapter_id": "3a9ebfba-e710-11ef-b20d-3f487b7d9a9a",
+                    "last_chapter_name": "第100话",
+                    "browse": {
+                        "comic_uuid": "b58f15e6-c6e5-11e8-87e1-024352452ce0",
+                        "path_word": "grandblue",
+                        "chapter_uuid": "3a9ebfba-e710-11ef-b20d-3f487b7d9a9a",
+                        "chapter_name": "第100话"
+                    }
+                }
+            },
+            {
+                "uuid": 206424,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": {
+                    "last_browse_id": "81653520-5e01-11ef-aa53-3f487b7d9a9a",
+                    "last_browse_name": "ç¬¬2å·"
+                },
+                "comic": {
+                    "uuid": "8c633128-cb94-11eb-9506-00163e0ca5bd",
+                    "b_display": true,
+                    "name": "女友的朋友",
+                    "path_word": "nvyoudepengyou",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "じゅら",
+                            "path_word": "じゅら"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://sn.mangafunb.fun/n/nvyoudepengyou/cover/1716705705.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 33656958,
+                    "datetime_updated": "2025-02-09",
+                    "last_chapter_id": "6472dc14-e6c4-11ef-b1d7-3f487b7d9a9a",
                     "last_chapter_name": "第97话",
                     "browse": {
-                        "comic_uuid": "331d4826-9b85-11e8-8c80-c8ff287e7c9d",
-                        "path_word": "biedangounijiangle",
-                        "chapter_uuid": "80e0de68-e9f9-11ea-b8bb-00163e0ca5bd",
-                        "chapter_name": "ç¬¬42è¯"
+                        "comic_uuid": "8c633128-cb94-11eb-9506-00163e0ca5bd",
+                        "path_word": "nvyoudepengyou",
+                        "chapter_uuid": "81653520-5e01-11ef-aa53-3f487b7d9a9a",
+                        "chapter_name": "ç¬¬2å·"
                     }
                 }
             },
             {
-                "uuid": 212309,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "259e688c-f526-11e8-b542-00163e0ca5bd",
-                    "b_display": true,
-                    "name": "電鋸人",
-                    "path_word": "dianjuren",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "藤本タツキ",
-                            "path_word": "藤本タツキ"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/dianjuren/cover/1689304034.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 46675409,
-                    "datetime_updated": "2025-02-28",
-                    "last_chapter_id": "d487e777-f573-11ef-9f4c-fa163e02432f",
-                    "last_chapter_name": "第193话"
-                }
-            },
-            {
-                "uuid": 211467,
+                "uuid": 173968,
                 "name": null,
                 "b_folder": false,
                 "folder_id": null,
                 "last_browse": {
-                    "last_browse_id": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
-                    "last_browse_name": "ç¬¬33è©±"
+                    "last_browse_id": "3c6d9f4c-7ff3-11eb-baab-00163e0ca5bd",
+                    "last_browse_name": "ç¬¬53è¯"
                 },
                 "comic": {
-                    "uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
+                    "uuid": "e3cb0a44-32cb-11e9-bc70-00163e0ca5bd",
                     "b_display": true,
-                    "name": "普普通通輕音部",
-                    "path_word": "puputongtongqinyinbu",
+                    "name": "不死不幸",
+                    "path_word": "busijiabuxing",
                     "females": [],
                     "males": [],
                     "author": [
                         {
-                            "name": "出内テツオ",
-                            "path_word": "出内テツオ"
-                        },
-                        {
-                            "name": "クワハリ",
-                            "path_word": "クワハリ"
+                            "name": "户塚庆文",
+                            "path_word": "户塚庆文"
                         }
                     ],
                     "theme": [],
-                    "cover": "https://sp.mangafunb.fun/p/puputongtongqinyinbu/cover/1738297762.jpeg.328x422.jpg",
-                    "status": 0,
-                    "popular": 105878,
-                    "datetime_updated": "2025-02-28",
-                    "last_chapter_id": "c5c01264-f543-11ef-a7f4-fa163e02432f",
-                    "last_chapter_name": "第50話",
+                    "cover": "https://hi77-overseas.mangafunb.fun/busijiabuxing/cover/1687226491.jpg.328x422.jpg",
+                    "status": 1,
+                    "popular": 7938863,
+                    "datetime_updated": "2025-02-07",
+                    "last_chapter_id": "381584d6-e55d-11ef-b0d2-3f487b7d9a9a",
+                    "last_chapter_name": "第239话",
                     "browse": {
-                        "comic_uuid": "958da828-41fc-11ef-99c6-3f487b7d9a9a",
-                        "path_word": "puputongtongqinyinbu",
-                        "chapter_uuid": "7e1ec59e-c39f-11ef-9e6c-3f487b7d9a9a",
-                        "chapter_name": "ç¬¬33è©±"
+                        "comic_uuid": "e3cb0a44-32cb-11e9-bc70-00163e0ca5bd",
+                        "path_word": "busijiabuxing",
+                        "chapter_uuid": "3c6d9f4c-7ff3-11eb-baab-00163e0ca5bd",
+                        "chapter_name": "ç¬¬53è¯"
                     }
                 }
             },
             {
-                "uuid": 211460,
+                "uuid": 233516,
                 "name": null,
                 "b_folder": false,
                 "folder_id": null,
                 "last_browse": null,
                 "comic": {
-                    "uuid": "4caadd62-4efd-11e9-8b1c-024352452ce0",
+                    "uuid": "f1f2cc48-6a13-11eb-8be0-024352452ce0",
                     "b_display": true,
-                    "name": "一拳超人",
-                    "path_word": "yiquanchaoren",
+                    "name": "戰隊大失格",
+                    "path_word": "zhanduidashige",
                     "females": [],
                     "males": [],
                     "author": [
                         {
-                            "name": "村田雄介",
-                            "path_word": "村田雄介"
-                        },
-                        {
-                            "name": "ONE",
-                            "path_word": "ONE"
+                            "name": "春场ねぎ",
+                            "path_word": "春场ねぎ"
                         }
                     ],
                     "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/yiquanchaoren/cover/1651425894.jpg.328x422.jpg",
+                    "cover": "https://hi77-overseas.mangafunb.fun/zhanduidashige/cover/1655260413.png.328x422.jpg",
                     "status": 0,
-                    "popular": 19321042,
-                    "datetime_updated": "2025-01-02",
-                    "last_chapter_id": "c296ef68-c867-11ef-a105-3f487b7d9a9a",
-                    "last_chapter_name": "2025新年賀圖"
+                    "popular": 6485985,
+                    "datetime_updated": "2025-01-16",
+                    "last_chapter_id": "3807646e-d3ba-11ef-a847-3f487b7d9a9a",
+                    "last_chapter_name": "第167话"
                 }
             }
         ],
-        "total": 4,
+        "total": 6,
         "limit": 20,
         "offset": 0
     }
