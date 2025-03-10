@@ -4,35 +4,59 @@
     "results": {
         "list": [
             {
-                "uuid": 234175,
+                "uuid": 234250,
                 "name": null,
                 "b_folder": false,
                 "folder_id": null,
                 "last_browse": null,
                 "comic": {
-                    "uuid": "25ad3a2c-6529-11eb-bf9c-00163e0ca5bd",
+                    "uuid": "40963fe0-7d3b-11ef-b895-3f487b7d9a9a",
                     "b_display": true,
-                    "name": "學院里的殺人游戲",
-                    "path_word": "xueyuanlidesharenyouxi",
+                    "name": "愛的流星卡烏帕",
+                    "path_word": "adlxkwp",
                     "females": [],
                     "males": [],
                     "author": [
                         {
-                            "name": "山口ミコト",
-                            "path_word": "山口ミコト"
-                        },
-                        {
-                            "name": "北河トウタ",
-                            "path_word": "北河トウタ"
+                            "name": "雨蘭",
+                            "path_word": "雨蘭"
                         }
                     ],
                     "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/xueyuanlidesharenyouxi/cover/1666424211.jpg.328x422.jpg",
+                    "cover": "https://sa.mangafunb.fun/a/adlxkwp/cover/1727487891.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 5811363,
-                    "datetime_updated": "2025-03-04",
-                    "last_chapter_id": "2714548e-f861-11ef-9df8-fa163e02432f",
-                    "last_chapter_name": "第105.2话"
+                    "popular": 801537,
+                    "datetime_updated": "2025-03-08",
+                    "last_chapter_id": "6d4af3db-fbca-11ef-95d5-fa163e02432f",
+                    "last_chapter_name": "第10话"
+                }
+            },
+            {
+                "uuid": 234177,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": null,
+                "comic": {
+                    "uuid": "829f21fe-c386-11ea-b77d-00163e0ca5bd",
+                    "b_display": true,
+                    "name": "怪獸8號",
+                    "path_word": "guaishou8hao",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "松本直也",
+                            "path_word": "松本直也"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/guaishou8hao/cover/1651163222.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 18855724,
+                    "datetime_updated": "2025-03-08",
+                    "last_chapter_id": "47fa3eb2-fbca-11ef-8fab-fa163e02432f",
+                    "last_chapter_name": "第2次人气投票结果"
                 }
             },
             {
@@ -64,7 +88,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/tiancaiwangzidechiziguojiazhenxingshu/cover/1651390129.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 2692712,
+                    "popular": 2696140,
                     "datetime_updated": "2025-03-03",
                     "last_chapter_id": "5c9b3cb9-f7d1-11ef-bdf9-fa163e02432f",
                     "last_chapter_name": "第229话",
@@ -102,66 +126,10 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/wunengdenainai/cover/1651207608.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 2887571,
+                    "popular": 2894484,
                     "datetime_updated": "2025-03-01",
                     "last_chapter_id": "0c338c17-f660-11ef-99fd-fa163e02432f",
                     "last_chapter_name": "第105话"
-                }
-            },
-            {
-                "uuid": 234177,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "829f21fe-c386-11ea-b77d-00163e0ca5bd",
-                    "b_display": true,
-                    "name": "怪獸8號",
-                    "path_word": "guaishou8hao",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "松本直也",
-                            "path_word": "松本直也"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/guaishou8hao/cover/1651163222.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 18838637,
-                    "datetime_updated": "2025-02-28",
-                    "last_chapter_id": "b6d64784-f570-11ef-b9dd-fa163e02432f",
-                    "last_chapter_name": "第122话"
-                }
-            },
-            {
-                "uuid": 234174,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "47841938-443b-11ee-848f-d3d228a76de6",
-                    "b_display": true,
-                    "name": "雷雷雷",
-                    "path_word": "leileilei",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "芳明慧",
-                            "path_word": "芳明慧"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://sl.mangafunb.fun/l/leileilei/cover/1713348664.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 1990098,
-                    "datetime_updated": "2025-02-14",
-                    "last_chapter_id": "3166284a-ea74-11ef-b473-3f487b7d9a9a",
-                    "last_chapter_name": "第31.1話"
                 }
             },
             {
@@ -193,7 +161,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/grandblue/cover/1657695983.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 11476903,
+                    "popular": 11501595,
                     "datetime_updated": "2025-02-10",
                     "last_chapter_id": "3a9ebfba-e710-11ef-b20d-3f487b7d9a9a",
                     "last_chapter_name": "第100话",
@@ -202,43 +170,6 @@
                         "path_word": "grandblue",
                         "chapter_uuid": "3a9ebfba-e710-11ef-b20d-3f487b7d9a9a",
                         "chapter_name": "第100话"
-                    }
-                }
-            },
-            {
-                "uuid": 206424,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": {
-                    "last_browse_id": "da751f6e-b210-11ef-9328-3f487b7d9a9a",
-                    "last_browse_name": "第4卷"
-                },
-                "comic": {
-                    "uuid": "8c633128-cb94-11eb-9506-00163e0ca5bd",
-                    "b_display": true,
-                    "name": "女友的朋友",
-                    "path_word": "nvyoudepengyou",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "じゅら",
-                            "path_word": "じゅら"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://sn.mangafunb.fun/n/nvyoudepengyou/cover/1716705705.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 33701474,
-                    "datetime_updated": "2025-02-09",
-                    "last_chapter_id": "6472dc14-e6c4-11ef-b1d7-3f487b7d9a9a",
-                    "last_chapter_name": "第97话",
-                    "browse": {
-                        "comic_uuid": "8c633128-cb94-11eb-9506-00163e0ca5bd",
-                        "path_word": "nvyoudepengyou",
-                        "chapter_uuid": "da751f6e-b210-11ef-9328-3f487b7d9a9a",
-                        "chapter_name": "第4卷"
                     }
                 }
             },
@@ -267,7 +198,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/busijiabuxing/cover/1687226491.jpg.328x422.jpg",
                     "status": 1,
-                    "popular": 7949080,
+                    "popular": 7959173,
                     "datetime_updated": "2025-02-07",
                     "last_chapter_id": "381584d6-e55d-11ef-b0d2-3f487b7d9a9a",
                     "last_chapter_name": "第239话",
@@ -301,14 +232,14 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/zhanduidashige/cover/1655260413.png.328x422.jpg",
                     "status": 0,
-                    "popular": 6496943,
+                    "popular": 6507874,
                     "datetime_updated": "2025-01-16",
                     "last_chapter_id": "3807646e-d3ba-11ef-a847-3f487b7d9a9a",
                     "last_chapter_name": "第167话"
                 }
             }
         ],
-        "total": 9,
+        "total": 7,
         "limit": 20,
         "offset": 0
     }
