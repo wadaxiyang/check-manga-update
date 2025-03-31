@@ -4,31 +4,31 @@
     "results": {
         "list": [
             {
-                "uuid": 234250,
+                "uuid": 233516,
                 "name": null,
                 "b_folder": false,
                 "folder_id": null,
                 "last_browse": null,
                 "comic": {
-                    "uuid": "40963fe0-7d3b-11ef-b895-3f487b7d9a9a",
+                    "uuid": "f1f2cc48-6a13-11eb-8be0-024352452ce0",
                     "b_display": true,
-                    "name": "愛的流星卡烏帕",
-                    "path_word": "adlxkwp",
+                    "name": "戰隊大失格",
+                    "path_word": "zhanduidashige",
                     "females": [],
                     "males": [],
                     "author": [
                         {
-                            "name": "雨蘭",
-                            "path_word": "雨蘭"
+                            "name": "春场ねぎ",
+                            "path_word": "春场ねぎ"
                         }
                     ],
                     "theme": [],
-                    "cover": "https://sa.mangafunb.fun/a/adlxkwp/cover/1727487891.jpg.328x422.jpg",
+                    "cover": "https://hi77-overseas.mangafunb.fun/zhanduidashige/cover/1655260413.png.328x422.jpg",
                     "status": 0,
-                    "popular": 914430,
-                    "datetime_updated": "2025-03-22",
-                    "last_chapter_id": "7f676c28-06b6-11f0-8f7b-fa163e02432f",
-                    "last_chapter_name": "第11话"
+                    "popular": 6576763,
+                    "datetime_updated": "2025-03-28",
+                    "last_chapter_id": "d068d090-0b7a-11f0-a37a-fa163e02432f",
+                    "last_chapter_name": "第174话"
                 }
             },
             {
@@ -53,10 +53,38 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/guaishou8hao/cover/1651163222.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 18947420,
-                    "datetime_updated": "2025-03-08",
-                    "last_chapter_id": "47fa3eb2-fbca-11ef-8fab-fa163e02432f",
-                    "last_chapter_name": "第2次人气投票结果"
+                    "popular": 19000313,
+                    "datetime_updated": "2025-03-28",
+                    "last_chapter_id": "e185c543-0b77-11f0-acf1-fa163e02432f",
+                    "last_chapter_name": "第123话"
+                }
+            },
+            {
+                "uuid": 234250,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": null,
+                "comic": {
+                    "uuid": "40963fe0-7d3b-11ef-b895-3f487b7d9a9a",
+                    "b_display": true,
+                    "name": "愛的流星卡烏帕",
+                    "path_word": "adlxkwp",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "雨蘭",
+                            "path_word": "雨蘭"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://sa.mangafunb.fun/a/adlxkwp/cover/1727487891.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 975233,
+                    "datetime_updated": "2025-03-22",
+                    "last_chapter_id": "7f676c28-06b6-11f0-8f7b-fa163e02432f",
+                    "last_chapter_name": "第11话"
                 }
             },
             {
@@ -85,7 +113,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/yubianchengleyishijiemeishaonvdedashuyiqimaoxian/cover/1658123253.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 10353189,
+                    "popular": 10382953,
                     "datetime_updated": "2025-03-03",
                     "last_chapter_id": "5481711e-f7e2-11ef-906d-fa163e02432f",
                     "last_chapter_name": "第222话"
@@ -120,7 +148,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/tiancaiwangzidechiziguojiazhenxingshu/cover/1651390129.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 2704737,
+                    "popular": 2708195,
                     "datetime_updated": "2025-03-03",
                     "last_chapter_id": "5c9b3cb9-f7d1-11ef-bdf9-fa163e02432f",
                     "last_chapter_name": "第229话",
@@ -158,7 +186,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/wunengdenainai/cover/1651207608.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 2927832,
+                    "popular": 2937184,
                     "datetime_updated": "2025-03-01",
                     "last_chapter_id": "0c338c17-f660-11ef-99fd-fa163e02432f",
                     "last_chapter_name": "第105话"
@@ -193,7 +221,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/grandblue/cover/1657695983.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 11612800,
+                    "popular": 11677903,
                     "datetime_updated": "2025-02-10",
                     "last_chapter_id": "3a9ebfba-e710-11ef-b20d-3f487b7d9a9a",
                     "last_chapter_name": "第100话",
@@ -230,7 +258,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/busijiabuxing/cover/1687226491.jpg.328x422.jpg",
                     "status": 1,
-                    "popular": 7995188,
+                    "popular": 8013576,
                     "datetime_updated": "2025-02-07",
                     "last_chapter_id": "381584d6-e55d-11ef-b0d2-3f487b7d9a9a",
                     "last_chapter_name": "第239话",
@@ -240,34 +268,6 @@
                         "chapter_uuid": "3c6d9f4c-7ff3-11eb-baab-00163e0ca5bd",
                         "chapter_name": "ç¬¬53è¯"
                     }
-                }
-            },
-            {
-                "uuid": 233516,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "f1f2cc48-6a13-11eb-8be0-024352452ce0",
-                    "b_display": true,
-                    "name": "戰隊大失格",
-                    "path_word": "zhanduidashige",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "春场ねぎ",
-                            "path_word": "春场ねぎ"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/zhanduidashige/cover/1655260413.png.328x422.jpg",
-                    "status": 0,
-                    "popular": 6545139,
-                    "datetime_updated": "2025-01-16",
-                    "last_chapter_id": "3807646e-d3ba-11ef-a847-3f487b7d9a9a",
-                    "last_chapter_name": "第167话"
                 }
             }
         ],
