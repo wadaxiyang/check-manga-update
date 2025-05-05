@@ -4,6 +4,38 @@
     "results": {
         "list": [
             {
+                "uuid": 235171,
+                "name": null,
+                "b_folder": false,
+                "folder_id": null,
+                "last_browse": null,
+                "comic": {
+                    "uuid": "b2cc5b1a-0de9-11ea-b4f8-00163e0ca5bd",
+                    "b_display": true,
+                    "name": "與變成了異世界美少女的大叔一起冒險",
+                    "path_word": "yubianchengleyishijiemeishaonvdedashuyiqimaoxian",
+                    "females": [],
+                    "males": [],
+                    "author": [
+                        {
+                            "name": "津留崎优",
+                            "path_word": "津留崎优"
+                        },
+                        {
+                            "name": "池泽真",
+                            "path_word": "池泽真"
+                        }
+                    ],
+                    "theme": [],
+                    "cover": "https://hi77-overseas.mangafunb.fun/yubianchengleyishijiemeishaonvdedashuyiqimaoxian/cover/1658123253.jpg.328x422.jpg",
+                    "status": 0,
+                    "popular": 10660483,
+                    "datetime_updated": "2025-05-02",
+                    "last_chapter_id": "28e0d8e6-2710-11f0-877e-fa163e02432f",
+                    "last_chapter_name": "第226话"
+                }
+            },
+            {
                 "uuid": 233516,
                 "name": null,
                 "b_folder": false,
@@ -25,7 +57,7 @@
                     "theme": [],
                     "cover": "https://sz.mangafunb.fun/z/zhanduidashige/cover/1744782193.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 6922536,
+                    "popular": 7010102,
                     "datetime_updated": "2025-04-23",
                     "last_chapter_id": "4f98cde6-2003-11f0-8c8c-fa163e02432f",
                     "last_chapter_name": "第177话"
@@ -53,7 +85,7 @@
                     "theme": [],
                     "cover": "https://sa.mangafunb.fun/a/adlxkwp/cover/1727487891.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 1050571,
+                    "popular": 1063684,
                     "datetime_updated": "2025-04-20",
                     "last_chapter_id": "54005436-1dd6-11f0-a80c-fa163e02432f",
                     "last_chapter_name": "第12话"
@@ -81,7 +113,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/guaishou8hao/cover/1651163222.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 19217028,
+                    "popular": 19258078,
                     "datetime_updated": "2025-04-16",
                     "last_chapter_id": "564bb61b-1a8c-11f0-b281-fa163e02432f",
                     "last_chapter_name": "第124话"
@@ -116,7 +148,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/grandblue/cover/1657695983.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 11955932,
+                    "popular": 12004063,
                     "datetime_updated": "2025-04-16",
                     "last_chapter_id": "12e8b460-1a7e-11f0-be6c-fa163e02432f",
                     "last_chapter_name": "番外篇",
@@ -157,7 +189,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/tiancaiwangzidechiziguojiazhenxingshu/cover/1651390129.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 2734579,
+                    "popular": 2739097,
                     "datetime_updated": "2025-04-16",
                     "last_chapter_id": "1a9edc98-1a6c-11f0-a584-fa163e02432f",
                     "last_chapter_name": "第234话",
@@ -195,42 +227,10 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/wunengdenainai/cover/1651207608.jpg.328x422.jpg",
                     "status": 0,
-                    "popular": 2979701,
+                    "popular": 2987166,
                     "datetime_updated": "2025-04-16",
                     "last_chapter_id": "34950ffa-1a67-11f0-8fb1-fa163e02432f",
                     "last_chapter_name": "第107话"
-                }
-            },
-            {
-                "uuid": 235171,
-                "name": null,
-                "b_folder": false,
-                "folder_id": null,
-                "last_browse": null,
-                "comic": {
-                    "uuid": "b2cc5b1a-0de9-11ea-b4f8-00163e0ca5bd",
-                    "b_display": true,
-                    "name": "與變成了異世界美少女的大叔一起冒險",
-                    "path_word": "yubianchengleyishijiemeishaonvdedashuyiqimaoxian",
-                    "females": [],
-                    "males": [],
-                    "author": [
-                        {
-                            "name": "津留崎优",
-                            "path_word": "津留崎优"
-                        },
-                        {
-                            "name": "池泽真",
-                            "path_word": "池泽真"
-                        }
-                    ],
-                    "theme": [],
-                    "cover": "https://hi77-overseas.mangafunb.fun/yubianchengleyishijiemeishaonvdedashuyiqimaoxian/cover/1658123253.jpg.328x422.jpg",
-                    "status": 0,
-                    "popular": 10591790,
-                    "datetime_updated": "2025-04-15",
-                    "last_chapter_id": "80cd098e-19da-11f0-acae-fa163e02432f",
-                    "last_chapter_name": "第225话"
                 }
             },
             {
@@ -258,7 +258,7 @@
                     "theme": [],
                     "cover": "https://hi77-overseas.mangafunb.fun/busijiabuxing/cover/1687226491.jpg.328x422.jpg",
                     "status": 1,
-                    "popular": 8085377,
+                    "popular": 8101159,
                     "datetime_updated": "2025-02-07",
                     "last_chapter_id": "381584d6-e55d-11ef-b0d2-3f487b7d9a9a",
                     "last_chapter_name": "第239话",
